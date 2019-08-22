@@ -1,0 +1,58 @@
+*{
+  box-sizing: border;
+  font-family: Arial;
+}
+
+body {
+
+  background: #e3e3e3;
+  font-family: arial, Helvetica, sans-serif;
+  height: 499px;
+  color: white;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #21201E;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fff;
+  transform: translate(5px, 0px);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-attachment: fixed;
+  background-image: url('https://i.imgur.com/AlLGIet.jpg');
+  background-repeat:
+  background-position: bottom;
+  padding: 70px;
+  height: 400px;
+}
+/* Style the footer */
+.footer {
+  background-color: #f3f5f6;
+  background-attachment: fixed;
+  background-image: url('https://i.imgur.com/BC0YjXU.png');
+  background-repeat: no-repeat;
+  background-size: contain,230px;
+  background-position: left, 80px;
+  padding:499px;
+  margin-top: 10px;
+}
