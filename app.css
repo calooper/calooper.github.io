@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  box-sizing: border;
   font-family: Arial;
 }
 
@@ -7,7 +7,7 @@ body {
 
   background: #e3e3e3;
   font-family: arial, Helvetica, sans-serif;
-  height: 1500px;
+  height: 499px;
   color: white;
   text-align: right;
   letter-spacing: 1px;
@@ -39,27 +39,12 @@ body {
 /* Style the content */
 .content {
   background-attachment: fixed;
-  background-image: url(https://imgur.com/AlLGIet);
+  background-image: url('https://i.imgur.com/AlLGIet.jpg');
   background-repeat:
   background-position: bottom;
   padding: 70px;
-  height: 510px;
-
-
+  height: 400px;
 }
-/* Style the footer */
-.boxContent {
-  background-color: #fff;
-  position: top right;
-  padding: 100px;
-  margin-top: 10px;
-  margin-left: 600px;
-  width: 400px;
-  border: 15px;
-  z-index: +1;
-
-}
-
 /* Style the footer */
 .footer {
   background-color: #f3f5f6;
@@ -68,6 +53,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain,230px;
   background-position: left, 80px;
-  padding:500px;
+  padding:499px;
   margin-top: 10px;
 }
