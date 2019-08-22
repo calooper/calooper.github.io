@@ -39,7 +39,11 @@ body {
 /* Style the content */
 .content {
   background-attachment: fixed;
+<<<<<<< HEAD
   background-image: url('https://i.imgur.com/AlLGIet.jpg');
+=======
+  background-image: url(https://i.imgur.com/AlLGIet.jpg);
+>>>>>>> e2f970181aa1362c800b699901f701c27fd841c6
   background-repeat:
   background-position: bottom;
   padding: 70px;
