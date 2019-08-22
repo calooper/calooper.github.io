@@ -35,7 +35,7 @@ body {
 /* Style the content */
 .content {
   background-color: white;
-  background-image: url(file:///Users/coltlooper/Downloads/pngfind.com-snowy-mountain-png-2460121.png);
+  background-image: url(https://i.imgur.com/4JOZnqi.png);
   padding: 50px;
   background-attachment: fixed;
   background-repeat: repeat-x;
@@ -46,7 +46,7 @@ body {
 .footer {
   background-color: #f3f5f6;
   background-attachment:inherit;
-  background-image: url(file:///Users/coltlooper/Desktop/Screenshots/12f170e737b0e485fc9540b47a6b54f4-hiking-silhouette-by-vexels.png);
+  background-image: url(https://i.imgur.com/7PB5KJS.png);
   background-repeat: no-repeat;
   background-position: 800px;
   background-blend-mode: color-burn;
