@@ -39,7 +39,7 @@ body {
 /* Style the content */
 .content {
   background-attachment: fixed;
-  background-image: url("https://i.imgur.com/AlLGIet.jpg");
+  background-image: url(https://i.imgur.com/AlLGIet.jpg);
   background-repeat:
   background-position: bottom;
   padding: 70px;
@@ -64,7 +64,7 @@ body {
 .footer {
   background-color: #f3f5f6;
   background-attachment: fixed;
-  background-image: url("https://i.imgur.com/BC0YjXU.png"), url(https://i.imgur.com/DPMBEKv.png);
+  background-image: url(https://i.imgur.com/BC0YjXU.png),url(https://i.imgur.com/DPMBEKv.png);
   background-repeat: no-repeat;
   background-size: contain,230px;
   background-position: left, 80px;
