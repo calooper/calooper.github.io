@@ -1,0 +1,62 @@
+*{
+  box-sizing: border;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: #21201E;
+  font-family:courier ;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #21201E;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fff;
+  transform: translate(5px, 0px);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: white;
+  background-image: url(https://i.imgur.com/4JOZnqi.png);
+  padding: 50px;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  height: 440px;
+  font-family: courier;
+}
+/* Style the footer */
+.footer {
+  background-color: #f3f5f6;
+  background-attachment:inherit;
+  background-image: url(https://i.imgur.com/7PB5KJS.png);
+  background-repeat: no-repeat;
+  background-position: 800px;
+  background-blend-mode: color-burn;
+  padding: 80px;
+  margin-top: 10px;
+}
+.footerBlank {
+  background-color: #21201E;
+  background-attachment: scroll;
+  background-position: bottom;
+  padding: 40px;
+  margin-top: 10px;
+}
