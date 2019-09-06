@@ -1,6 +1,6 @@
 *{
   box-sizing: border;
-  font-family: Arial;
+  font-family: Comic sans MS;
 }
 
 body {
@@ -9,19 +9,20 @@ body {
   font-family: arial, Helvetica, sans-serif;
   height: 499px;
   color: white;
-  text-align: right;
+  text
   letter-spacing: 1px;
 }
 
-/* Style the top navigation bar */
-.topnav {
+
+.topBar {
   overflow: hidden;
   background-color: #21201E;
+  border-radius: 15px 15px 0px 0px;
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: right;
+
+.topBar a {
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -29,34 +30,32 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
-.topnav a:hover {
+.topBar a:hover {
   background-color: #fff;
   transform: translate(5px, 0px);
   color: black;
 }
 
-/* Style the content */
 .content {
-  background-attachment: fixed;
-<<<<<<< HEAD
-  background-image: url('https://i.imgur.com/AlLGIet.jpg');
-=======
-  background-image: url(https://i.imgur.com/AlLGIet.jpg);
->>>>>>> e2f970181aa1362c800b699901f701c27fd841c6
-  background-repeat:
-  background-position: bottom;
+  background-image: url(https://i.imgur.com/T9z6fzf.jpg);
+  background-attachment: ;
+  background-repeat:no-repeat;
+  background-size: 1300px 600px;
+  background-position: top;
   padding: 70px;
-  height: 400px;
+  height: 450px;
+  border-radius: 0px 0px 15px 15px;
+
 }
-/* Style the footer */
+
 .footer {
   background-color: #f3f5f6;
-  background-attachment: fixed;
-  background-image: url(https://i.imgur.com/BC0YjXU.png),url(https://i.imgur.com/DPMBEKv.png);
+  background-attachment: fixed, scroll;
+  background-image: url(https://i.imgur.com/8GJaJ3O.png), url(https://i.imgur.com/EhyJl7W.png);
+  background-size: contain,800px;
   background-repeat: no-repeat;
-  background-size: contain,230px;
-  background-position: left, 80px;
-  padding:499px;
+  background-position: left, right;
+  padding:600px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
