@@ -1,6 +1,6 @@
 *{
   box-sizing: border;
-  font-family: Arial;
+  font-family: Comic sans MS;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   font-family: arial, Helvetica, sans-serif;
   height: 499px;
   color: white;
-  text-align: right;
+  text
   letter-spacing: 1px;
 }
 
@@ -17,11 +17,12 @@ body {
 .topBar {
   overflow: hidden;
   background-color: #21201E;
+  border-radius: 15px 15px 0px 0px;
 }
 
 
 .topBar a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -29,32 +30,32 @@ body {
   text-decoration: none;
 }
 
-
 .topBar a:hover {
   background-color: #fff;
   transform: translate(5px, 0px);
   color: black;
 }
 
-
 .content {
-  background-image: url(https://i.imgur.com/ehEHIP6.jpg);
-  background-attachment: fixed;
+  background-image: url(https://i.imgur.com/T9z6fzf.jpg);
+  background-attachment: ;
   background-repeat:no-repeat;
+  background-size: 1300px 600px;
   background-position: top;
   padding: 70px;
-  height: 400px;
+  height: 450px;
+  border-radius: 0px 0px 15px 15px;
 
 }
 
-
 .footer {
   background-color: #f3f5f6;
-  background-attachment: fixed;
-  background-image: url(https://i.imgur.com/BC0YjXU.png), url(https://i.imgur.com/DPMBEKv.png);
+  background-attachment: fixed, scroll;
+  background-image: url(https://i.imgur.com/8GJaJ3O.png), url(https://i.imgur.com/EhyJl7W.png);
+  background-size: contain,800px;
   background-repeat: no-repeat;
-  background-size: contain,230px;
-  background-position: left, 90px;
-  padding:499px;
+  background-position: left, right;
+  padding:600px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
