@@ -54,9 +54,10 @@ body {
   background-attachment:inherit;
   background-repeat: no-repeat;
   background-position: 700px;
-  background-blend-mode: exclusion;
+  background-blend-mode: soft-light;
   padding: 80px;
   margin-top: 00px;
+
 }
 
 .footerBlank {
@@ -65,5 +66,47 @@ body {
   background-attachment: scroll;
   background-position: bottom;
   padding: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
+
+}
+
+.footerOne {
+  background-color: #fff;
+
+  border-radius: 15px 15px 15px 15px;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-position: 1200px;
+  background-blend-mode: exclusion;
+  padding: 80px;
+  margin-top: 00px;
+}
+
+.footerTwo {
+  background-color: #fff;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-position: 1200px;
+  background-blend-mode: exclusion;
+  padding: 80px;
+  margin-top: 00px;
+}
+
+.footerThree {
+  background-color: #fff;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-position: 1200px;
+  background-blend-mode: exclusion;
+  padding: 80px;
+  margin-top: 00px;
+}
+.footerFour {
+  background-color: #fff;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-position: 1200px;
+  background-blend-mode: exclusion;
+  padding: 80px;
+  margin-top: 00px;
 }
