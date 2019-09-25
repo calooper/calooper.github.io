@@ -37,7 +37,11 @@ body {
 }
 
 .content {
+<<<<<<< HEAD
   background-image: url(https://i.imgur.com/aSMV1MM.jpg);
+=======
+  background-image: url(https://i.imgur.com/T9z6fzf.jpg);
+>>>>>>> bba4e01a76c9eaf91ef3183c9bc421225029aa08
   background-attachment: ;
   background-repeat:no-repeat;
   background-size: 1300px 600px;
