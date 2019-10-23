@@ -72,14 +72,11 @@ body {
 
 .footerOne {
   background-color: #fff;
-
+  position: relative;
   border-radius: 15px 15px 15px 15px;
-  background-attachment:inherit;
   background-repeat: no-repeat;
-  background-position: 1200px;
-  background-blend-mode: exclusion;
   padding: 80px;
-  margin-top: 00px;
+
 }
 
 .footerTwo {
