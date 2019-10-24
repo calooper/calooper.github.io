@@ -1,14 +1,13 @@
 * {
-  box-sizing: border-box;
   font-family: Comic sans MS;
 }
 
 body {
-  /* background: #e3e3e3; */
-  font-family: arial, Helvetica, sans-serif;
-  height: 499px;
+  background: #e3e3e3;
+  */ font-family: arial, Helvetica, sans-serif;
   color: white;
   text letter-spacing: 1px;
+  background-color: white;
 }
 
 .topBar {
@@ -35,13 +34,13 @@ body {
   color: #fec03d;
   /* background-image: clip-path:url(https://i.imgur.com/pEwQEHc.png); */
   background-color: white;
-  background-origin: border-box;
+  /* background-origin: border-box; */
 }
 
 .content {
   background-image: url(https://i.imgur.com/i84yWZc.png);
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: 400px;
   background-position: -10% 90%;
   background-blend-mode: darken;
   padding: 90px;
@@ -51,7 +50,7 @@ body {
 }
 
 .title {
-  font-size: 72px;
+  font-size: 86px;
   font-family: sans-serif;
   background: -webkit-linear-gradient(orange, darkorange);
   -webkit-background-clip: text;
@@ -62,7 +61,7 @@ body {
   background-image: url(https://i.imgur.com/bzS1s3N.png);
   background-size: 1350px;
   background-position: top;
-  padding: 50px;
+  padding: 60px;
   */ border: 15px;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
@@ -99,4 +98,17 @@ body {
   padding: 20px;
   border-radius: 15px;
   font-size: 24px;
+}
+
+.content>h5 {
+  font-size: 28px;
+  color: grey;
+}
+
+.content>p {
+  font-size: 16px;
+  color: grey;
+  position: sticky;
+  text-align: right;
+  padding-left: 300px;
 }
